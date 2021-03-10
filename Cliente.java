@@ -42,9 +42,7 @@ public class Cliente {
     @Override
     public String toString() {
         return "== Confirmando Cadastro==" + "\n" +
-                "Seu nome: " + nome + "\n" +
-                "Sua idade: " + idade;
+                "Seu nome: " + this.nome + "\n" +
+                "Sua idade: " + this.idade;
     }
-    
-    
 }
