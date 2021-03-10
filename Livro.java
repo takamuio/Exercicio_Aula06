@@ -36,12 +36,12 @@ public class Livro {
 
     public Livro() {
     }
-    
-    String verificarDesconto(){
+
+    String verificarDesconto() {
         double precoFinal = 0;
         String resposta;
-        
-        if (this.valor > 80){
+
+        if (this.valor > 80) {
             precoFinal = this.valor * 0.8;
             resposta = "E com desconto é: " + precoFinal;
         } else {
@@ -52,10 +52,10 @@ public class Livro {
 
     @Override
     public String toString() {
-        return "== Dados do Livro ==" + "\n" +
-                "nome do livro: " + nome + "\n" +
-                "Genero do livro: " + genero + "\n" +
-                "Valor do livro: " + valor + "\n";
+        return "== Dados do Livro ==" + "\n"
+                + "nome do livro: " + this.nome + "\n"
+                + "Genero do livro: " + this.genero + "\n"
+                + "Valor do livro: " + this.valor + "\n";
     }
-    
+
 }
